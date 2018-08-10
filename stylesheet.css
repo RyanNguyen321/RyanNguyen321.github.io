@@ -1,0 +1,7 @@
+body{background-color:lightgray;font-family:"AcadRef Regular"}
+big{font-size:150%;}
+
+@keyframes example {
+    from {background-color: dodgerblue;}
+    to {background-color: gray;}
+}

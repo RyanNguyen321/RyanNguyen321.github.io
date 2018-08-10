@@ -1,0 +1,99 @@
+<!DOCTPYE HTML>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link rel="price" type="text/javascript" href="price.js">
+  <title>
+    My Website
+  </title>
+</head>
+<body onunload="leave()" style=font-family:Arial,Helvetica>
+  <h1>
+    <a href="index.html"><img src="menu_logo.png" width=100 height=50><a/>
+  </h1>
+<a href="index.html" style="color:black">|Home|</a>
+<a href="page2.html" style="color:black">Buy Tickets|</a>
+<a href="page4.html" style="color:black">Ticket Information</a>
+
+<hr/>
+<h2>Buy Tickets</h2>
+<form>
+<big style="font-size:150%">
+  Choose Section #:
+  <select id="seat_selection" style="font-size:100%;background-color:dodgerblue;">
+    <option value="50">
+      Section 100($50)
+      </option>
+    <option value="75">
+      Section 200($75)
+      </option>
+    <option value="100">
+      Section 300($100)
+      </option>
+    </select>
+</br>
+Choose Row #:
+  <select id="row_selection" style="font-size:100%;background-color:dodgerblue;">
+    <option value="1">
+      1
+      </option>
+    <option value="2">
+      2
+      </option>
+    <option value="3">
+      3
+      </option>
+    <option value="4">
+      4
+      </option>
+    <option value="5">
+      5
+      </option>
+    <option value="6">
+      6
+      </option>
+    <option value="7">
+      7
+      </option>
+    <option value="8">
+      8
+      </option>
+    <option value="9">
+      9
+      </option>
+    <option value="10">
+      10
+      </option>
+    </select>
+</br>
+Premium Seating:
+  <select id="premium_selection" style="font-size:100%;background-color:dodgerblue;">
+    <option value="0">
+      ...
+      </option>
+    <option value="75">
+      +$75
+      </option>
+  </select>
+</br>
+Optional:
+  <select id="optional_selection" style="font-size:100%;background-color:dodgerblue;">
+    <option value="0">
+      ...
+      </option>
+      <option value="50">
+        Parking +$50
+        </option>
+
+<input type='button' style="visibility:hidden"></br>
+<input type='button' value="Check Total Price" onclick="total_price()" style="background-color:dodgerblue;color:white;padding:20px 32px;text-align:center"/></br>
+<a href="http://users.wpi.edu/~rnguyen/page3.html">
+<input type='button' value="Check Out"  style="background-color:dodgerblue;color:white;padding:20px 32px;text-align:center" /></a></br>
+
+
+
+</big>
+</form>
+</body>
+<script type="text/javascript" src="price.js"></script>
+</html>
